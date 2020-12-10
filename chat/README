@@ -1,0 +1,37 @@
+# Projeto de Programação de Computadores
+## Prova 1o Bimestre
+
+## Prof. Gustavo Pinto
+
+
+## Leia com atenção:
+- A prova é em dupla
+- A prova deve ser entregue até sexta-feira, às 23:59
+- Faça um fork do projeto e envie um PR com a solução
+- Se duas ou mais duplas implementarem soluções muito similares, as duas (ou mais) duplas ficaram com zero na prova.
+- Boa prova
+
+
+## Enunciado
+Crie um programa que simule um grupo de bate papo. Use a implementação fornecida como base.
+
+Se certifique que as classes Grupo, Mensagem, Moderador, Participante e Usuário foram criadas. Moderador e Usuário são tipos de Participantes. O Moderador é um tipo especial de participante: o SuperParticipante
+
+Um moderador pode adicionar Usuários ao grupo. Um moderador pode remover um Usuário do grupo.
+
+Moderador e Usuário podem enviar mensagens no grupo.
+
+Ao criar um grupo, o moderador deverá automaticamente entrar no grupo.
+
+## A sua atividade consiste em:
+
+- Realizar as implementações restantes;
+- Utilizar as abstrações discutidas em sala (herança, polimorfismo, coleções e exceções);
+- Modifique o código para que mensagens seja uma coleção;
+- Adicione a data/hora que a mensagem foi enviada;
+- Fazer todos os testes passarem;
+- Crie testes para as classes adicionais
+- Está usando JUnit 4; faça a mudança para o JUnit 5.
+
+## Observação final:
+- Será descontado 1 (um) ponto para cada método setX que for criado.
